@@ -1,0 +1,6 @@
+Data compression is particularly useful in communications because it enables devices to transmit or store the same amount of data in fewer bits. There are a variety of data compression techniques, but only a few have been standardized. The CCITT has defined a standard data compression technique for transmitting and a compression standard for data communications through modems. In addition, there are file compression formats, such as ARC and ZIP.
+
+the itsy bitsy spider crawled up the water spout 
+down came the rain and washed the spider out 
+out came the sun and dried up all the rain 
+and the itsy bitsy spider went up the spout again 
