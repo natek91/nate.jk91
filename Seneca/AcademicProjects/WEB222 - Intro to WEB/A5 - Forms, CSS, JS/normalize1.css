@@ -1,0 +1,311 @@
+/*Designing the main page wrapper*/
+#astral
+{
+	width:1400px;
+	height: 1500px;
+	margin:0 auto;
+	background-image: url(http://www.iwallfinder.com/files/1/third-series-of-women-fashion-shopping-294.jpg);
+	background-size: 125%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#FFFFFF;
+	box-shadow: 4px 7px 7px 7px #e0fffa;
+}
+
+/*Designing the main default body of the page*/
+body
+{
+	background-image: url(http://wallpaper-house.com/data/out/12/wallpaper2you_568987.jpg);
+	color: black;
+	font-family: 'Courgette', cursive;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: .05px;
+}
+
+/*Designing header of the page*/
+header
+{
+	background-image: url(http://globalmedicalco.com/photos/globalmedicalco/4/18201.jpg);
+    padding:10px;
+    margin-bottom:55px;
+
+}
+
+header h1
+{
+	color: black;
+    font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	text-shadow: 7px 5px 4px #92D8C8;
+}
+
+header h2
+{
+	color: black;
+    font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	text-shadow: 7px 5px 4px #92D8C8;
+}
+
+header img
+{
+	margin-left:20px;
+	margin-right: 28px;
+    float:left;
+    width:130px;
+    height:120px;
+}
+
+
+/*Designing the navigation tool*/
+nav
+{
+	background-image: url(http://globalmedicalco.com/photos/globalmedicalco/20/97196.png);
+    width:215px;
+    padding:20px;
+    float:left;
+    height:300px;
+    box-shadow:3px 3px 3px #bababa;
+    margin-bottom:20px;
+	border-radius:25px;
+	border-style: ridge;
+    border-color: coral;
+    border-width: 7px;
+}
+
+nav h2
+{
+	font-size:30px;
+	font-family: Times New Roman;
+}
+
+nav ul li
+{
+    font-size: 25px;
+	list-style-type: disc;
+}
+
+nav ul li a
+{
+	font-family: Times New Roman;
+    text-decoration:none;
+}
+
+nav ul li a:link
+{
+    color: blue;
+}
+nav ul li a:active
+{
+    color: blue;
+}
+
+nav ul li a:visited
+{
+    color: purple;
+}
+
+nav ul li a:hover
+{
+    color:red;
+}
+
+
+
+/*Designing the middle section of the page (Honesty Policy)*/
+section
+{
+    background-image: url(http://globalmedicalco.com/photos/globalmedicalco/27/131663.jpg);
+	width:720px;
+    float:left;   
+	border-radius:25px;
+	border-style: ridge;
+    border-color: coral;
+    border-width: 7px;
+	box-shadow:3px 3px 3px #bababa;
+	margin-bottom:20px;   
+	margin-left:10px;
+	padding:15px;
+}
+
+section h3
+{
+    text-align:center;
+    font-size:40px;
+	font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+}
+
+section p
+{
+    font-family: arial;
+	font-size:20px;
+}
+
+section span
+{
+    color:Black;
+    font-weight:bolder;
+}
+
+
+
+
+/*Designing the registration form of the page*/
+#form 
+{
+    padding: 3px;
+    box-shadow: 3px 3px 3px #bababa;
+	font-family: Times New Roman;
+	font-size: 20px;
+	font-weight: bolder;
+    text-decoration:none;
+}
+
+#form fieldset
+{
+	font-family: Arial;
+    text-decoration:none;
+	font-size: 13px;
+}
+
+#form fieldset legend
+{
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+	border-style: double;
+}
+
+input[type = password], input[type = text], input[type = email]
+{
+	margin: 5px 0px;
+	font-size: 17px;
+    padding: 10px 10px;
+	width: 100%;
+    box-sizing: border-box;
+}
+
+input[type = password]:focus, input[type = text]:focus, input[type = email]:focus 
+{
+    background-color: #e8ffc9;
+}
+
+input[type = submit], input[type = reset], input[type = button] 
+{
+	cursor: pointer;
+	font-size: 21px;
+	font-family: 'Pacifico', cursive;
+	color: white;
+    padding: 20px 60px;
+    margin: 25px 15px;  
+	background-color: #3078ff;
+	border-style: double;
+}
+
+select
+{
+	box-sizing: border-box;
+    width: 100%;
+	font-size:18px;
+    padding: 8px 13px;
+    margin: 8px 0;
+}
+
+select:focus
+{
+    background-color: white;
+}
+
+/*Designing the error message style in the registration form*/
+#errors p
+{
+	font-size: 18px;
+	font-family: Arial;
+	margin-top:-10px;
+    color:blue;   
+}
+
+
+
+
+
+
+/*Designing the aside tool of the page (Canada Post Policy)*/
+aside
+{
+	background-image: url(http://globalmedicalco.com/photos/globalmedicalco/27/131649.jpg);
+	background-size: 102% 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius:25px;
+	border-style: ridge;
+    border-color: coral;
+    border-width: 7px;
+	box-shadow:3px 3px 3px #bababa;
+    width:288px;
+	height:360px;
+    margin-left:15px;
+	margin-bottom:25px;
+	padding:20px;
+    float:right; 
+}
+
+aside img
+{
+    float:left;
+    width:280px;
+    height:100px;
+}
+
+aside h4
+{
+    font-family: 'Courgette', cursive;
+	font-size: 28px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+aside ul li
+{
+	float:left;
+    list-style-type: disc;
+    padding:7px 0px 2px 0px;
+    font-size:20px;
+}
+
+aside ul li a
+{
+    text-decoration:none;
+}
+
+aside ul li a:link
+{
+    color:blue;
+}
+aside ul li a:active
+{
+    color:blue;
+}
+aside ul li a:visited
+{
+    color:purple;
+}
+
+aside ul li a:hover
+{
+    color:red;
+}
+
+
+
+
+/*Designing the footer with student name*/
+footer
+{       
+    clear:both;
+    font-size:18px;
+    text-align:right;
+	padding: 0px 100px 0px;
+}
+

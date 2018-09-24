@@ -1,0 +1,93 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: JuAn Kim Student ID: 131549164 Date: March 22nd, 2018 
+* 
+********************************************************************************/
+
+body
+{
+	color: black;
+}
+
+nav, footer
+{
+	background-image: url(http://wallpaper-house.com/data/out/12/wallpaper2you_568987.jpg);
+	color: black;
+	font-family: 'Courgette', cursive;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: .05px;
+}
+
+nav ul li a, nav ul li span, footer.center
+{
+	font-weight: bolder;
+	font-size: 18px;
+	padding: 6px;
+	font-family: 'Courgette', cursive;
+	color: black;
+}
+
+header
+{
+	background-image: url(https://i.pinimg.com/236x/e3/42/0d/e3420d96c7b3ae359dc18699d52f9f22--cute-backgrounds-cute-wallpapers.jpg);
+	padding: 8px;
+}
+
+header h1.app-title
+{
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	color: black;
+	text-shadow: 7px 5px 4px #92D8C8;
+}
+
+div.main-table-container
+{
+	max-height: 500px;
+	overflow-y: scroll;
+	border-style: dotted;
+    border-color: #3CE22C;
+    border-width: 5px;
+	background-image: url(http://www.zingerbugimages.com/backgrounds/green_canvas_seamless.jpg);
+}
+
+
+table.main-table-top th
+{
+	font-size: 15pt;
+	font-family: cursive;
+	text-align: left;
+	text-shadow: 6px 4px 4px #92D8C8;
+	color: black;
+	background-image: url(http://www.zingerbugimages.com/backgrounds/green_canvas_seamless.jpg);
+	text-align: left;
+	padding: 5px 15px;
+}
+
+
+div.main-table-container table.main-table td
+{
+	border: 2px dotted black;
+	padding: 5px 5px 5px 5px;
+	font-family: arial;
+	font-size: 13pt;  
+	color: black;
+}
+
+
+table.main-table p span
+{
+	color: green;
+	font-weight: bolder;
+	font-style: oblique;
+}

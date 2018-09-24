@@ -1,0 +1,139 @@
+/*********************************************************************************
+*
+* WEB222 – Assignment #4b
+*
+* I declare that this assignment is my own work in accordance with Seneca
+* Academic Policy. No part of this assignment has been copied manually or
+* electronically from any other source (including web sites) or distributed to
+* other students.
+*
+* Name: JuAn Kim Student ID: 131549164 Date: March 22nd, 2018
+*
+********************************************************************************/
+
+/* Step 1 - Styling the main containers */
+
+/* Select all elements with class "main-container", and change the width and margin to pre-defined settings */
+.main-container
+{
+	max-width: 960px;
+	margin: 0px auto; 
+}
+
+/* Select all <nav> elements that are a child of an element with class "main-container" and adjust its width and position */
+.main-container nav
+{
+	width: 30%;
+	float: left;
+}
+
+/* Select all "main" classelements that are a child of the "main-container", and change its width and position */
+.main-container .main
+{
+	width: 70%;
+	float: right;
+}
+
+
+/* Select all "header" elements that are a child of the "main-container", and change its position, border size & style & colour,
+ and bottom-margin */
+.main-container header
+{
+	padding: 10px;
+	background-color: #eeeeee;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 30px;
+}
+
+/* Select all header "h1" elements that are nested in the "main-container", and change width, font-size, text-alignment,
+ and top-margin */
+.main-container header h1
+{
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Select all "footer" elements that are a child of the "main-container", and clear the elements around the footer, 
+change its orientation, background-colour, top-border style & size & colour, and its font-size */
+.main-container footer
+{
+	clear: both;
+	padding: 20px 10px;
+	background-color: #eeeeee;
+	border-top: 1px solid #cccccc;
+	font-size: 13px;
+}
+
+
+
+/* Step 2 - Styling the navigation and logo */
+
+/* Select the unique "logo" id, and change its width, font-size and font-weight to bold */
+#logo
+{
+	width: 30%;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Select the image that is nested in the "logo" with unique id, and change its width, and set its vertical-alignment at the center */
+#logo img
+{
+	width: 94px;
+	vertical-align: middle;
+}
+
+/* Select the "ul" element that is placed in the "nav" list, and do not show any bullets or numbers for the list */
+nav ul
+{
+	list-style-type: none;
+}
+
+/* Select the "a" element a that is in the "ul" inside the "nav", and display the link as a block-level element, remove underline, 
+and adjust the padding size around the link */
+nav ul a
+{
+	display: block;
+	text-decoration: none;
+	padding: 5px 5px;
+}
+
+/* Select the "province" class in "div", and change its width, element-position, margin-size, and margin-height */
+div.province
+{
+	width: 30%;
+	float: left;
+	margin: 8px;
+	height: 310px;
+}
+
+/* Select the "description" class in the "province" class inside the "div" element, and change its max-height,
+adjust overflow-y & overflow-x for scrolling interface, and change top- & bottom-margin size(s) */
+div.province .description
+{
+	max-height: 165px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 8px;
+}
+
+/* Select the "a" element in the "province" class inside the "div" element, and display its list, set the text-alignment & 
+-colour, -decoration, change its background-color, and adjust its padding size around the link */
+div.province a
+{
+	display: block;
+	text-align: center;
+	background-color: #555555;
+	color: #eeeeee;
+	text-decoration: none;
+	padding: 5px;
+}
+
+/* Select "flag" class inside the "img" element in the "flag" element, and set its width to pre-defined value */
+img.flag
+{
+	width: 100%;
+}
